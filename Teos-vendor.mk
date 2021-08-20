@@ -2588,5 +2588,4 @@ PRODUCT_PACKAGES += \
     colorservice \
     ims \
     imssettings \
-    qti-logkit \
-    ZeroBalanceHelper
+    qti-logkit
