@@ -16,7 +16,13 @@
 
 PRODUCT_COPY_FILES += \
     vendor/vestel/Teos/proprietary/vendor/CTA/.preloadspec:system/vendor/CTA/.preloadspec \
-    vendor/vestel/Teos/proprietary/vendor/CTA/system/:system/vendor/CTA/system/ \
+    vendor/vestel/Teos/proprietary/vendor/CTA/system/vendor/overlay/CTAMmsRes/CTAMmsRes.apk:system/vendor/CTA/system/vendor/overlay/CTAMmsRes/CTAMmsRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/CTA/system/vendor/overlay/CTANetworkSettingRes/CTANetworkSettingRes.apk:system/vendor/CTA/system/vendor/overlay/CTANetworkSettingRes/CTANetworkSettingRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/CTA/system/vendor/overlay/CTASettingsProviderRes/CTASettingsProviderRes.apk:system/vendor/CTA/system/vendor/overlay/CTASettingsProviderRes/CTASettingsProviderRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/CTA/system/vendor/overlay/CTASettingsRes/CTASettingsRes.apk:system/vendor/CTA/system/vendor/overlay/CTASettingsRes/CTASettingsRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/CTA/system/vendor/overlay/CTASimContactsRes/CTASimContactsRes.apk:system/vendor/CTA/system/vendor/overlay/CTASimContactsRes/CTASimContactsRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/CTA/system/vendor/overlay/CTASystemUIRes/CTASystemUIRes.apk:system/vendor/CTA/system/vendor/overlay/CTASystemUIRes/CTASystemUIRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/CTA/system/vendor/overlay/CTATeleServicesRes/CTATeleServicesRes.apk:system/vendor/CTA/system/vendor/overlay/CTATeleServicesRes/CTATeleServicesRes.apk \
     vendor/vestel/Teos/proprietary/vendor/Cambodia/.preloadspec:system/vendor/Cambodia/.preloadspec \
     vendor/vestel/Teos/proprietary/vendor/Cambodia/data/modem_row_config/msm8917/mcfg_sw.mbn:system/vendor/Cambodia/data/modem_row_config/msm8917/mcfg_sw.mbn \
     vendor/vestel/Teos/proprietary/vendor/Cambodia/data/modem_row_config/msm8917_3/mcfg_sw.mbn:system/vendor/Cambodia/data/modem_row_config/msm8917_3/mcfg_sw.mbn \
