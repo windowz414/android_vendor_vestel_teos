@@ -42,7 +42,17 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/Teos/proprietary/vendor/ChinaTelecom/system/vendor/vendor.prop:system/vendor/ChinaTelecom/system/vendor/vendor.prop \
     vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/.preloadspec:system/vendor/ChinaUnicom/.preloadspec \
     vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/exclude.list:system/vendor/ChinaUnicom/exclude.list \
-    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/:system/vendor/ChinaUnicom/system/ \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/app/CuBrowserQuick/CuBrowserQuick.apk:system/vendor/ChinaUnicom/system/app/CuBrowserQuick/CuBrowserQuick.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/app/CuBrowserQuick/oat/arm64/CuBrowserQuick.odex:system/vendor/ChinaUnicom/system/app/CuBrowserQuick/oat/arm64/CuBrowserQuick.odex \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/app/WoRead/WoRead.apk:system/vendor/ChinaUnicom/system/app/WoRead/WoRead.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/app/WoRead/oat/arm64/WoRead.odex:system/vendor/ChinaUnicom/system/app/WoRead/oat/arm64/WoRead.odex \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/vendor/overlay/CuBrowserRes/CuBrowserRes.apk:system/vendor/ChinaUnicom/system/vendor/overlay/CuBrowserRes/CuBrowserRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/vendor/overlay/CuDialerRes/CuDialerRes.apk:system/vendor/ChinaUnicom/system/vendor/overlay/CuDialerRes/CuDialerRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/vendor/overlay/CuSettingsProviderRes/CuSettingsProviderRes.apk:system/vendor/ChinaUnicom/system/vendor/overlay/CuSettingsProviderRes/CuSettingsProviderRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/vendor/overlay/CuSettingsRes/CuSettingsRes.apk:system/vendor/ChinaUnicom/system/vendor/overlay/CuSettingsRes/CuSettingsRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/vendor/overlay/CuSimContactsRes/CuSimContactsRes.apk:system/vendor/ChinaUnicom/system/vendor/overlay/CuSimContactsRes/CuSimContactsRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/vendor/overlay/CuStkRes/CuStkRes.apk:system/vendor/ChinaUnicom/system/vendor/overlay/CuStkRes/CuStkRes.apk \
+    vendor/vestel/Teos/proprietary/vendor/ChinaUnicom/system/vendor/overlay/CuSystemUIRes/CuSystemUIRes.apk:system/vendor/ChinaUnicom/system/vendor/overlay/CuSystemUIRes/CuSystemUIRes.apk \
     vendor/vestel/Teos/proprietary/vendor/DTGermany/.preloadspec:system/vendor/DTGermany/.preloadspec \
     vendor/vestel/Teos/proprietary/vendor/DTGermany/data/modem_config/msm8917/mcfg_sw.mbn:system/vendor/DTGermany/data/modem_config/msm8917/mcfg_sw.mbn \
     vendor/vestel/Teos/proprietary/vendor/DTGermany/data/modem_config/msm8917_3/mcfg_sw.mbn:system/vendor/DTGermany/data/modem_config/msm8917_3/mcfg_sw.mbn \
