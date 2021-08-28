@@ -39,14 +39,12 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/vestel/teos/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
     vendor/vestel/teos/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
-    vendor/vestel/teos/proprietary/bin/fmhal_service:system/bin/fmhal_service \
     vendor/vestel/teos/proprietary/bin/fstman:system/bin/fstman \
     vendor/vestel/teos/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/vestel/teos/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/vestel/teos/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/vestel/teos/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/vestel/teos/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/vestel/teos/proprietary/bin/hs20-osu-client:system/bin/hs20-osu-client \
     vendor/vestel/teos/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/vestel/teos/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/vestel/teos/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -291,7 +289,6 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/vestel/teos/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
     vendor/vestel/teos/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
-    vendor/vestel/teos/proprietary/etc/permissions/rcscommon.xml:system/etc/permissions/rcscommon.xml \
     vendor/vestel/teos/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/vestel/teos/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/vestel/teos/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
@@ -313,29 +310,21 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/vestel/teos/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/vestel/teos/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/vestel/teos/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/vestel/teos/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/vestel/teos/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/vestel/teos/proprietary/lib/hw/power.qcom.so:system/lib/hw/power.qcom.so \
     vendor/vestel/teos/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/vestel/teos/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/vestel/teos/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/vestel/teos/proprietary/lib/libantradio.so:system/lib/libantradio.so \
-    vendor/vestel/teos/proprietary/lib/libbthost_if.so:system/lib/libbthost_if.so \
     vendor/vestel/teos/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
-    vendor/vestel/teos/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/vestel/teos/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/vestel/teos/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/vestel/teos/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/vestel/teos/proprietary/lib/liblogwrap.so:system/lib/liblogwrap.so \
     vendor/vestel/teos/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/vestel/teos/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/vestel/teos/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/vestel/teos/proprietary/lib/libpdmapper.so:system/lib/libpdmapper.so \
     vendor/vestel/teos/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
-    vendor/vestel/teos/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/vestel/teos/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/vestel/teos/proprietary/lib/libsparse.so:system/lib/libsparse.so \
     vendor/vestel/teos/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/vestel/teos/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/vestel/teos/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
@@ -353,25 +342,18 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
     vendor/vestel/teos/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
     vendor/vestel/teos/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
-    vendor/vestel/teos/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
-    vendor/vestel/teos/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/vestel/teos/proprietary/lib64/hw/power.qcom.so:system/lib64/hw/power.qcom.so \
     vendor/vestel/teos/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/vestel/teos/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/vestel/teos/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/vestel/teos/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
-    vendor/vestel/teos/proprietary/lib64/libbthost_if.so:system/lib64/libbthost_if.so \
     vendor/vestel/teos/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
-    vendor/vestel/teos/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
-    vendor/vestel/teos/proprietary/lib64/libfmjni.so:system/lib64/libfmjni.so \
     vendor/vestel/teos/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/vestel/teos/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/vestel/teos/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
     vendor/vestel/teos/proprietary/lib64/libqcmediaplayer.so:system/lib64/libqcmediaplayer.so \
-    vendor/vestel/teos/proprietary/lib64/libqcomfm_jni.so:system/lib64/libqcomfm_jni.so \
     vendor/vestel/teos/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/vestel/teos/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/vestel/teos/proprietary/lib64/libwifi-hal-qcom.so:system/lib64/libwifi-hal-qcom.so \
     vendor/vestel/teos/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/vestel/teos/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/vestel/teos/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
@@ -2081,7 +2063,6 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
     vendor/vestel/teos/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
     vendor/vestel/teos/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/vestel/teos/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so \
     vendor/vestel/teos/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/vestel/teos/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/vestel/teos/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
