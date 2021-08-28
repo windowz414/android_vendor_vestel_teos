@@ -126,13 +126,46 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/vestel/teos/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/vestel/teos/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx230_qc2002_chromatix.xml:system/etc/camera/imx230_qc2002_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx230_qc2002_with_gyro_chromatix.xml:system/etc/camera/imx230_qc2002_with_gyro_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/camera/imx258_bear_chromatix.xml:system/etc/camera/imx258_bear_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/camera/imx258_mono_bear_chromatix.xml:system/etc/camera/imx258_mono_bear_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/camera/imx258_mono_chromatix.xml:system/etc/camera/imx258_mono_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx258_teos_chromatix.xml:system/etc/camera/imx258_teos_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx298_gt24c64_chromatix.xml:system/etc/camera/imx298_gt24c64_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx362_chromatix.xml:system/etc/camera/imx362_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
+    vendor/vestel/teos/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov2281_chromatix.xml:system/etc/camera/ov2281_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov2680_chromatix.xml:system/etc/camera/ov2680_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov5670_chromatix.xml:system/etc/camera/ov5670_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov5670_f5670bq_chromatix.xml:system/etc/camera/ov5670_f5670bq_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov5695_chromatix.xml:system/etc/camera/ov5695_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov7251_chromatix.xml:system/etc/camera/ov7251_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov8856_chromatix.xml:system/etc/camera/ov8856_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k2l7_8953_chromatix.xml:system/etc/camera/s5k2l7_8953_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k2l7_chromatix.xml:system/etc/camera/s5k2l7_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k3m2xm_chromatix_bear.xml:system/etc/camera/s5k3m2xm_chromatix_bear.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k4h8_chromatix.xml:system/etc/camera/s5k4h8_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k4h8yx_chromatix.xml:system/etc/camera/s5k4h8yx_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k5e8_1lane_chromatix.xml:system/etc/camera/s5k5e8_1lane_chromatix.xml \
+    vendor/vestel/teos/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
     vendor/vestel/teos/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
     vendor/vestel/teos/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/vestel/teos/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
