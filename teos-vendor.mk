@@ -360,21 +360,6 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/vestel/teos/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/vestel/teos/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/vestel/teos/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/vestel/teos/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
-    vendor/vestel/teos/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
-    vendor/vestel/teos/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/vestel/teos/proprietary/lib/modules/generic_bl.ko:system/lib/modules/generic_bl.ko \
-    vendor/vestel/teos/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-    vendor/vestel/teos/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/vestel/teos/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/vestel/teos/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
-    vendor/vestel/teos/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
-    vendor/vestel/teos/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/vestel/teos/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/vestel/teos/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
-    vendor/vestel/teos/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
-    vendor/vestel/teos/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/vestel/teos/proprietary/lib64/hw/power.qcom.so:system/lib64/hw/power.qcom.so \
     vendor/vestel/teos/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/vestel/teos/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
