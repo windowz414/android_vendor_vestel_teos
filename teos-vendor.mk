@@ -373,6 +373,7 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/vestel/teos/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/vestel/teos/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
+    vendor/vestel/teos/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
     vendor/vestel/teos/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/vestel/teos/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
     vendor/vestel/teos/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
