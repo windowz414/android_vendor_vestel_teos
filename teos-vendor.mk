@@ -1009,6 +1009,7 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/etc/permissions/vendor-qti-hardware-alarm.xml:system/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/vestel/teos/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/vestel/teos/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/vestel/teos/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/vestel/teos/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/vestel/teos/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/vestel/teos/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
@@ -1719,7 +1720,6 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     izat.xt.srv \
     qcrilhook \
-    qti-telephony-common \
     uimlpalibrary \
     uimremotesimlocklibrary \
     qti-vzw-ims-internal \
