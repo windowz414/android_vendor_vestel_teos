@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2021 The LineageOS Project
+# Copyright (C) 2017-2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -343,6 +343,7 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/vestel/teos/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/vestel/teos/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/vestel/teos/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/vestel/teos/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/vestel/teos/proprietary/lib/hw/power.qcom.so:system/lib/hw/power.qcom.so \
     vendor/vestel/teos/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
@@ -350,6 +351,7 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/vestel/teos/proprietary/lib/libantradio.so:system/lib/libantradio.so \
     vendor/vestel/teos/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
+    vendor/vestel/teos/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/vestel/teos/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/vestel/teos/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/vestel/teos/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -360,12 +362,14 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/vestel/teos/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/vestel/teos/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/vestel/teos/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/vestel/teos/proprietary/lib64/hw/power.qcom.so:system/lib64/hw/power.qcom.so \
     vendor/vestel/teos/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/vestel/teos/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/vestel/teos/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/vestel/teos/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
     vendor/vestel/teos/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
+    vendor/vestel/teos/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/vestel/teos/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/vestel/teos/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/vestel/teos/proprietary/lib64/libpdmapper.so:system/lib64/libpdmapper.so \
