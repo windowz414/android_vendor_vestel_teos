@@ -328,20 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/vestel/teos/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/vestel/teos/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/vestel/teos/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/vestel/teos/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/vestel/teos/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/vestel/teos/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/vestel/teos/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/vestel/teos/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/vestel/teos/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
-    vendor/vestel/teos/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/vestel/teos/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/vestel/teos/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/vestel/teos/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/vestel/teos/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/vestel/teos/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/vestel/teos/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/vestel/teos/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/vestel/teos/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/vestel/teos/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/vestel/teos/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
@@ -2326,21 +2312,4 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libtime_genoff \
     libts_detected_face_hal \
-    libts_face_beautify_hal \
-    QtiTelephonyService \
-    TimeService \
-    datastatusnotification \
-    embms \
-    fastdormancy \
-    shutdownlistener \
-    CNEService \
-    QtiTetherService \
-    com.qualcomm.location \
-    qcrilmsgtunnel \
-    CABLService \
-    RIDLClient \
-    SVIService \
-    ims \
-    imssettings \
-    com.qti.location.sdk \
-    qcrilhook
+    libts_face_beautify_hal
